@@ -8,11 +8,8 @@ Hi. I am a junior student in Huazhong University of Science and Technology.
             <td>
                 <!--左侧内容-->
               Email: Haoran Zhang
-
               Phone: +86-15225936607
-
               Date of birth: 4/14/2001
-
               Address: Luoyu Road 1037, Wuhan, China
             </td>
             <td>
