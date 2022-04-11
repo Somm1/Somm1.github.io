@@ -17,9 +17,9 @@ Huazhong University of Science and Technology(Honored Class)
 
 Major: Automation
 
-GPA 3.91(90.0/100) 
+**GPA 3.91(90.0/100)** 
 
-IELTS:7.5(Reading:8.5 Listening:7.0 Writing:6.5 Speaking:7.0)
+**IELTS:7.5(Reading:8.5 Listening:7.0 Writing:6.5 Speaking:7.0)**
 
 ## Research Interests
 1. Computer Vision in biology and medical area including classification, segmentation and anomaly detection. 
