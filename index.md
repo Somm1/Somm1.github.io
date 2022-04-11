@@ -1,5 +1,3 @@
-# Haoran Zhang
-
 <div align=center>
 <img src="mypic.jpg" width="90"/>
 </div>
@@ -12,7 +10,7 @@ Phone: +86-15225936607
     
 Date of birth: 4/14/2001
               
-Address: Luoyu Road 1037, Wuhan, China</td>
+Address: Luoyu Road 1037, Wuhan, China
 
 ## Education
 Huazhong University of Science and Technology(Honored Class)
