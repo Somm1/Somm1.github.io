@@ -8,7 +8,7 @@ Phone: +86-15225936607
 Date of birth: 4/14/2001
 
 Address: Luoyu Road 1037, Wuhan, China
-![mypic](MyPhoto.heic)
+![mypic](mypic.jpg)
 ## Education
 Huazhong University of Science and Technology(Honored Class)
 
