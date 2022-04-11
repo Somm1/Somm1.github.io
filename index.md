@@ -1,7 +1,7 @@
 # Haoran Zhang
 
 <div align=center>
-<img src="mypic.jpg" width="50"/>
+<img src="mypic.jpg" width="90"/>
 </div>
 
 Hi. I am a junior student in Huazhong University of Science and Technology.
