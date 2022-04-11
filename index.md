@@ -2,25 +2,6 @@
 Hi. I am a junior student in Huazhong University of Science and Technology.
 
 
-<html>
-    <table style="margin-left: auto; margin-right: auto;">
-        <tr>
-            <td>
-                <!--左侧内容-->
-              Email: Haoran Zhang
-              Phone: +86-15225936607
-              Date of birth: 4/14/2001
-              Address: Luoyu Road 1037, Wuhan, China
-            </td>
-            <td>
-                <!--右侧内容-->
-                ![mypic](mypic.jpg)
-            </td>
-        </tr>
-    </table>
-</html>
-
-
 <table border='0'>
 
 <tr>
@@ -28,11 +9,10 @@ Hi. I am a junior student in Huazhong University of Science and Technology.
     Email: Haoran Zhang
      
     Phone: +86-15225936607
-             
+    
     Date of birth: 4/14/2001
               
-    Address: Luoyu Road 1037, Wuhan, China
-    </td>
+    Address: Luoyu Road 1037, Wuhan, China</td>
 <td>![mypic](mypic.jpg)</td>
 </tr>
 </table>
