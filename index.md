@@ -5,7 +5,7 @@ Hi. I am a junior student in Huazhong University of Science and Technology.
 
 ## Education
 Huazhong University of Science and Technology
-GPA 3.91 &emsp &emsp &emsp &emsp IELTS:7.5
+GPA 3.91(90.0/100) &emsp; &emsp; &emsp; &emsp; IELTS:7.5(Reading:8.5 Listening:7.0 Writing:6.5 Speaking:7.0)
 # Research Interests
 
 # Research Experience
