@@ -24,18 +24,21 @@ IELTS:7.5(Reading:8.5 Listening:7.0 Writing:6.5 Speaking:7.0)
 
 ## Research Experience
 ### Transformer for 3D Medical Image Segmentation, HKUST(02/2022-Present)
-1. Better the performance of Swin-Transformer by using multi-scale window self-attention.
-2. Improve SwinUnet model in 3D medical image segmentation.
+1. Bettered the performance of Swin-Transformer by using multi-scale window self-attention.
+2. Improved SwinUnet model in 3D medical image segmentation.
 
-### 
+### DNA computing, HUST
+1. Designed a 
 
 ## Beyond Research
 
 ### Volunteer, Defensing Covid-19 pandemic
 1. Assisted the community
 
-# Personal hobbies
-
+## Personal hobbies
+1. I like playing badminton and table tennis. I learned how to play table tennis for over 2 years so I guess I am very good at it. 
+2. I love animals and in holidays I really enjoy hiking or birding. 
+3. I am also a gamer, playing Xbox and switch sometimes. My favorite game is The Legend of Zelda: Breath of the Wild.
 
 
 
