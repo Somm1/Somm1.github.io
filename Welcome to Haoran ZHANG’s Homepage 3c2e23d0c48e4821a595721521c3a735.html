@@ -1,0 +1,669 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Welcome to Haoran ZHANG’s Homepage</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="1c3d8f16-d311-4fe8-8560-86863357f005" class="page serif"><header><img class="page-cover-image" src="Welcome%20to%20Haoran%20ZHANG%E2%80%99s%20Homepage%203c2e23d0c48e4821a595721521c3a735/4A7933C1-5E3F-46D2-9D4D-1898B99741F3.jpeg" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">🐵</span></div><h1 class="page-title">Welcome to Haoran ZHANG’s Homepage</h1></header><div class="page-body"><figure id="3c2e23d0-c48e-4821-a595-721521c3a735" class="image"><a href="Welcome%20to%20Haoran%20ZHANG%E2%80%99s%20Homepage%203c2e23d0c48e4821a595721521c3a735/mypic_gaitubao_135x164.jpg"><img style="width:135px" src="Welcome%20to%20Haoran%20ZHANG%E2%80%99s%20Homepage%203c2e23d0c48e4821a595721521c3a735/mypic_gaitubao_135x164.jpg"/></a></figure><p id="41898ba4-8f22-40f8-a8e3-b5822b95b701" class="">Hi. I’m Haoran Zhang. I am a junior student in Huazhong University of Science and Technology. I will apply MS/PhD in the fall of 2022. </p><p id="a78bd286-26b7-4657-b6ce-03ca8d507af2" class="">Email: haoran_z@hust.edu.cn/1812071590@qq.com</p><p id="82d82cb8-08e3-4527-b13e-9c6d6ac16b07" class="">Phone: +86-15225936607</p><p id="e75289d3-4df0-448e-9db2-62a318998701" class="">Date of birth: 4/14/2001</p><p id="784852c9-86a3-4939-a8bb-e37e005776ae" class="">Address: Luoyu Road 1037, Wuhan, China</p><hr id="0c41e224-1bbf-4729-8c87-ea2eea6540e8"/><h1 id="cf1bf225-6e71-4944-bd2d-edaa5ee20514" class="">Education</h1><h2 id="b7e2e013-b73b-433c-be5f-a5a8d2e3e83d" class="">Huazhong University of Science and Technology(Honored Class)</h2><p id="d5f3be08-0c87-4cb2-9e7e-3c94f02bc3f8" class="">School of Artificial intelligence and Automation</p><p id="5a583921-6ecd-4a45-9fcc-d09d5a926921" class="">Major: Automation</p><p id="fa15d5c1-c64d-4fdb-ab4c-75b7005c3679" class=""><strong>GPA 3.91(90.0/100)</strong></p><p id="efcdc8e3-9412-4301-8ba9-096be032ebd1" class=""><strong>IELTS:7.5(Reading:8.5 Listening:7.0 Writing:6.5 Speaking:7.0)</strong></p><hr id="989c9edf-0c5d-4e77-ad2d-1f2f140ff64d"/><h1 id="b90d626e-a2cb-4ac7-b3c9-faae0265f82f" class="">For Research</h1><h2 id="441d0673-c614-4bb0-99b2-bbf8ce28e48f" class="">Research Interests</h2><ol type="1" id="aeee7ea9-6a81-490e-b544-e8a826376050" class="numbered-list" start="1"><li>Computer Vision in biology and medical area including classification, segmentation and anomaly detection.</li></ol><ol type="1" id="2df00c40-fffe-43b0-9f28-a9e415cdf7b5" class="numbered-list" start="2"><li>AI theories and prevalent deep learning models including Transformer, RNN and CNN.</li></ol><ol type="1" id="8caba132-3436-497f-b7c9-43777c20240e" class="numbered-list" start="3"><li>Other AI areas like NLP or Speech, which I didn’t have a chance to study deeply. </li></ol><h2 id="13278ff9-73db-4c1e-96e8-1ba4d15b0272" class="">Research Experience</h2><h3 id="456b71ed-64a8-49fd-b100-ebb4cf79e5fb" class="">Transformer for 3D Medical Image Segmentation(Online+On site), HKUST(02/2022-Present)</h3><p id="73da78f5-1be9-4f6b-828b-9615775c907b" class=""><strong>Supervisor: Hao Chen</strong></p><ol type="1" id="0c2e7bba-9d08-461b-a54d-9d73939ce06e" class="numbered-list" start="1"><li>Bettered the performance of Swin-Transformer by using multi-scale window self-attention.</li></ol><ol type="1" id="3178b53a-e5b4-4671-9b78-6009f2cc1b84" class="numbered-list" start="2"><li>Improved SwinUnet model in 3D medical image segmentation.</li></ol><h3 id="78d9d0a9-da68-4541-8531-9858e6c2aef6" class="">DNA Computing for Data Error Detection(On site), HUST(2021.10-2021.12)</h3><p id="b31c4b0f-0a06-4d30-9673-4eed8477de43" class=""><strong>Supervisor: Linqiang Pan, Kuiting Chen</strong></p><ol type="1" id="e2a1e226-dc1d-40bc-8b44-9ec30c3ef2b3" class="numbered-list" start="1"><li>Studied the principles and applications of DNA computing and build molecular circuits.</li></ol><ol type="1" id="23bf9d59-7b3d-4c53-b584-822d643e6af1" class="numbered-list" start="2"><li>Designed DNA switching circuits with visual DSD tool to simulate the computational devices made of DNA.</li></ol><h3 id="16f41559-e7df-4ed2-aefa-1a2e812546e7" class="">Polar Panels Detection and Energy Prediction(Online), NCSU(07/2021-09/2021)</h3><p id="1dbb9f3d-460d-4585-ab9b-807fe4808a69" class=""><strong>Supervisor: Majed Al-Ghandour</strong></p><ol type="1" id="7ade2237-ca78-40f5-987e-fa986db7969e" class="numbered-list" start="1"><li>This is a NCSU Summer GEARS(Global Education, Academics, and Research Skills ) program, administered by the NC State University Global Training Initiative. </li></ol><ol type="1" id="0a9e0a2e-a556-4539-b417-e093a17e0ea7" class="numbered-list" start="2"><li>Studied how to detect solar panels with the help of computer vision and whether utilizing solar panel is more cost efficient.</li></ol><ol type="1" id="d0ebaa0e-500c-4389-900d-09968b2c29b2" class="numbered-list" start="3"><li>Designed algorithms to detect solar panels in images and applied five models to different situations.</li></ol><ol type="1" id="f59e4e9d-137a-4f94-9467-d08fd6a7567d" class="numbered-list" start="4"><li>Made a detailed academic poster to illustrate the project.</li></ol><hr id="03a9ca29-9ba1-4723-b2c2-6d55a5ccc064"/><h1 id="bd915675-bcd5-456f-86e8-f51d3d0d4630" class="">Beyond Research</h1><h2 id="52bd5acd-b15b-4bf1-8a28-33ec86ef85eb" class="">Activities</h2><h3 id="219306c5-941e-4fb1-a2ce-d1caf0112da2" class="">Volunteer, Defensing Covid-19 pandemic</h3><ol type="1" id="8375be2a-1609-4af1-abe2-be6f11cb2e96" class="numbered-list" start="1"><li>Assisted the community to live better. </li></ol><ol type="1" id="ccbd0db8-1a72-4710-88fa-b4fb3c2ddb3f" class="numbered-list" start="2"><li>Protect the world from the attack of devils living in the hell. </li></ol><h2 id="99284aec-ee05-427b-93d9-b73aacc9923c" class="">Personal Hobbies</h2><ol type="1" id="162a2c7e-af71-4dca-8057-11a164bd3acb" class="numbered-list" start="1"><li>I like playing badminton and table tennis. I learned how to play table tennis for over 2 years so I guess I am very good at it.</li></ol><ol type="1" id="493dd904-b6cd-4a46-bc10-5bc292c4d4a1" class="numbered-list" start="2"><li>I love animals and in holidays I really enjoy hiking or birding.</li></ol><ol type="1" id="7500ae51-33e6-4495-b040-1dcf2a55b07b" class="numbered-list" start="3"><li>I like to watch movies and TV series. I think by watching these, I can experience different lives. My favorite TV series recently  is <em>Better Call Saul</em>.</li></ol><ol type="1" id="b5bfb4de-af48-4f6f-b475-4df4537e889e" class="numbered-list" start="4"><li>I am also a gamer, playing Xbox and switch sometimes. My favorite game is <em>The Legend of Zelda: Breath of the Wild</em>. I play video games about every two weeks an hour so don’t worry that I might be addicted into this. </li></ol><ol type="1" id="489cac8b-598c-4d49-8b26-030027552295" class="numbered-list" start="5"><li>I also hold a WeChat Public Account: The commune of Ant(小蚂蚁公社). Welcome to follow me and read articles in the account. I bet you will find how interesting the person I am(if you can read Chinese).</li></ol><figure id="6837a8a1-9796-435a-94fc-50c9a82f23d7"><a href="https://mp.weixin.qq.com/s/MsY3ZC1eXyrxk15It3UU9A" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">体测之体测及格了</div><div class="bookmark-description">体测之最后一次体测之合格了之不用补测了。</div></div><div class="bookmark-href"><img src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" class="icon bookmark-icon"/>https://mp.weixin.qq.com/s/MsY3ZC1eXyrxk15It3UU9A</div></div><img src="http://mmbiz.qpic.cn/sz_mmbiz_jpg/6r1J1Tlu11UK3JHFNm98ic2QJsC4QdFNKp55b8oDJGhuOn9l2QcxHFaKT3ib84bPwrLPpV57ZXnjFKcz0ickWLgcg/0?wx_fmt=jpeg" class="bookmark-image"/></a><figcaption>The latest article in the account. If you want to read more, the only way is to download WeChat, and search the account. </figcaption></figure></div></article></body></html>
